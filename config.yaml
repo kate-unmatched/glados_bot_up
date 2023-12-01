@@ -1,0 +1,22 @@
+system:
+  out: vk
+  in: vk
+logging:
+  out: console
+  level: INFO
+  file: files/log.log
+vk:
+  keys: files/vk_bot_keys.json
+data:
+  council: files/council2.json
+  events: files/notice.json
+  fired: files/fired_event.json
+  club:
+    about: files/about_club.txt
+    projects: files/projects.txt
+    join: files/join.txt
+room:
+  keys: files/google_token.json
+  schedule:
+    enable: true
+    spreadsheet: 1UHRZeVOl2uzEZEVQs-dpBya6FmrvyXxZwM8D1cEzg68
